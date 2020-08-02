@@ -1,0 +1,13 @@
+<div class="container">
+    <mat-card class="card">
+        <mat-form-field appearance="fill">
+            <mat-label>Choose Language </mat-label>
+            <mat-select [(ngModel)]="translator.lang" name="food" (selectionChange)="onChange()">
+                <mat-option *ngFor="let language of laungages" [value]="language.value">
+                    {{language.name}}
+                </mat-option>
+            </mat-select>
+        </mat-form-field>
+        <h3>{{title | translate | async}}</h3>
+    </mat-card>
+</div>

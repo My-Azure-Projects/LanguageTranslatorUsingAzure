@@ -1,0 +1,12 @@
+.card {
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.container {
+    text-align: center;
+    padding: 2%;
+}

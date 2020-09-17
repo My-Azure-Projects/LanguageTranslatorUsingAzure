@@ -10,3 +10,4 @@ describe('TranslatorService', () => {
     expect(service).toBeTruthy();
   });
 });
+
